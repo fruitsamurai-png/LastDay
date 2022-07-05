@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Green_snaps001
+  m_Shader: {fileID: 4800000, guid: 2b064e597c604f38b3d712c88a7c2b65, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - FOAM_SHADOWS_ON
+  - INTERSECTION_EFFECTS_ON
+  - WATER_LIGHTING_ON
+  - WORLD_SPACE_UV_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlbedoTex1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IntersectionFoamTexture:
+        m_Texture: {fileID: 2800000, guid: 772031b03d9d46e4ab03e15c8e17718c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MirrorReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalsTexture:
+        m_Texture: {fileID: 2800000, guid: a41da5f5671718b47bbc71e9ef691103, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SurfaceFoamTexture:
+        m_Texture: {fileID: 2800000, guid: d3b0d77dfe711a04c8ff18ecc260aa66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterColorGradientTexture:
+        m_Texture: {fileID: 2800000, guid: b3f9fed74fb5f1c4ea4fe5b062c3b953, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - FOAM_SHADOWS: 1
+    - INTERSECTION_EFFECTS: 1
+    - SHORE_MOVEMENT: 0
+    - SURFACE_FOAM: 0
+    - WATER_LIGHTING: 1
+    - WORLD_SPACE_UV: 1
+    - _Albedo2Flow: 1
+    - _Albedo2Tiling: 1
+    - _AlbedoContrast: 1
+    - _AlbedoIntensity: 1
+    - _BumpScale: 1
+    - _CausticsShadowMask: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FoamAmplitude: 15
+    - _FoamFlow: 10
+    - _FoamFrequency: 4
+    - _FoamGain: 0.6
+    - _FoamLacunarity: 5
+    - _FoamScale: 0.1
+    - _FoamShadowDepth: 10
+    - _FoamShadowStrength: 0.45
+    - _GlossMapScale: 1
+    - _Glossiness: 0.2
+    - _GlossyReflections: 1
+    - _IntersectionFoamBlend: 1
+    - _IntersectionFoamDepth: 0.72
+    - _IntersectionFoamScale: 0.19
+    - _IntersectionFoamShadowProjection: 4.6
+    - _IntersectionWaterBlend: 0
+    - _LightingHardness: 0
+    - _LightingSmoothness: 1
+    - _Metallic: 0.1
+    - _MicrowaveScale: 1
+    - _MicrowaveStrength: 0.5
+    - _MirrorContrast: 1
+    - _MirrorFPOW: 5
+    - _MirrorR0: 0.01
+    - _MirrorSaturation: 1
+    - _MirrorStrength: 1
+    - _MirrorWaveFlow: 5
+    - _MirrorWavePow: 1
+    - _MirrorWaveScale: 1
+    - _Mode: 0
+    - _NormalMap1Strength: 1
+    - _NormalMap2Flow: 0.5
+    - _NormalMap2Strength: 1
+    - _NormalMap2Tiling: 1.2
+    - _NormalsStrength: 0.29
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _ParallaxAmount: 0.1
+    - _ParallaxFlow: 40
+    - _ParallaxNoiseAmplitude: 3
+    - _ParallaxNoiseFrequency: 1
+    - _ParallaxNoiseGain: 0.3
+    - _ParallaxNoiseLacunarity: 4
+    - _ParallaxNoiseScale: 1
+    - _ParallaxNormal2Offset: 1
+    - _PlanarReflectionFresnel: 2.5
+    - _PlanarReflectionStrength: 0.82
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RefractionStrength: 0.022
+    - _ShoreBlend: 1
+    - _ShoreDepth: 0.74
+    - _ShoreFade: 1
+    - _ShoreFoamBreakupScale: 0
+    - _ShoreFoamBreakupStrength: 0
+    - _ShoreFoamFrequency: 0
+    - _ShoreFoamSpeed: 0
+    - _ShoreFoamWidth: 0
+    - _SmoothnessTextureChannel: 0
+    - _SoftFactor: 0.5
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SurfaceFoamBlend: 1
+    - _SurfaceFoamHeightMask: 0
+    - _SurfaceFoamHeightMaskSmoothness: 0
+    - _SurfaceFoamShadowProjection: 15
+    - _UVSec: 0
+    - _UnderwaterRefractionStrength: 0.099
+    - _WaterColorDepth: 0.8
+    - _WaterColorHorizonDistance: 20
+    - _ZWrite: 1
+    m_Colors:
+    - _AlbedoColor: {r: 0.15, g: 0.161, b: 0.16, a: 1}
+    - _Color: {r: 0.046305, g: 0.189, b: 0.05840853, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamSoft: {r: 0.25, g: 0.6, b: 1, a: 0}
+    - _IntersectionFoamColor: {r: 0.41037738, g: 0.6925265, b: 1, a: 1}
+    - _IntersectionFoamMovement: {r: 0, g: 0, b: 0, a: 0}
+    - _IntersectionFoamSampling: {r: 1, g: 0, b: 0, a: 0}
+    - _LightingDiffuseColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LightingSpecularColor: {r: 0.18163624, g: 0.10849059, b: 1, a: 0}
+    - _MirrorColor: {r: 1, g: 1, b: 1, a: 0.5}
+    - _MirrorDepthColor: {r: 0, g: 0, b: 0, a: 0.5}
+    - _NormalsMovement: {r: 0.04, g: 0.36, b: 0, a: 0}
+    - _ShoreColor: {r: 0, g: 0.9803922, b: 0.3019608, a: 0.3411765}
+    - _SurfaceFoamColor1: {r: 0.11565503, g: 0.18661064, b: 0.21698111, a: 0.3215686}
+    - _SurfaceFoamColor2: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 0.7294118}
+    - _SurfaceFoamMovement: {r: 0.7, g: 0, b: 0.47, a: 0.01}
+    - _SurfaceFoamSampling: {r: 0.62, g: 0, b: 0, a: 0}
+    - _SurfaceFoamTilingAndOffset: {r: -1, g: -1, b: 0.57, a: 0.22}
+    - _WaterColorDeep: {r: 0.01176471, g: 0.2862745, b: 0.509804, a: 1}
+    - _WaterColorHorizon: {r: 0, g: 0.227451, b: 0.8, a: 1}
+    - _WaterColorShallow: {r: 0, g: 0.7725491, b: 0.6235294, a: 0.5019608}
+    - _WaterColorUnderwater: {r: 0.2039216, g: 0.3098039, b: 0.5176471, a: 0}
+    - _WaveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveDirections: {r: 0, g: 0.64, b: 1, a: 0.33}
+    - _WaveVisuals: {r: 0.132, g: 7.9, b: 1.38, a: 0}
+  m_BuildTextureStacks: []
