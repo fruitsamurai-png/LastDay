@@ -2,35 +2,23 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Horizon 2
-  m_Shader: {fileID: 4800000, guid: cab0bc95e1ce4946a1298a052a7d1d6f, type: 3}
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - DSKY_HORIZON
-  - STC_GTYPE_BRANCH
-  - _MAPPING_LATITUDE_LONGITUDE_LAYOUT
+  m_Shader: {fileID: 4800000, guid: d1b928c1678247d7ba7e5e810deac9b1, type: 3}
+  m_ShaderKeywords: DSKY_HORIZON STC_GTYPE_BRANCH
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2501
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _AlbedoTex1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _AlbedoTex2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -59,18 +47,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MirrorReflectionTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _NormalMap2:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -91,67 +67,27 @@ Material:
         m_Texture: {fileID: 2800000, guid: 6798ff73f27744ebab26db6109e56a5f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
-    - _Albedo2Flow: 1
-    - _Albedo2Tiling: 1
-    - _AlbedoContrast: 1
-    - _AlbedoIntensity: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Exposure: 1
     - _Fluffiness: 0.41
-    - _FoamAmplitude: 15
-    - _FoamFlow: 10
-    - _FoamFrequency: 4
-    - _FoamGain: 0.6
-    - _FoamLacunarity: 5
-    - _FoamScale: 0.1
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _ImageType: 0
     - _IntensityInput: 0.98
     - _IntensityOutput: 1.49
     - _IntensityT1: 2
     - _IntensityT2: 2
     - _IntensityT3: -0.72
-    - _Layout: 0
     - _Level0: 27.31
     - _Level1: 1157
-    - _Mapping: 1
     - _Metallic: 0
-    - _MicrowaveScale: 1
-    - _MicrowaveStrength: 0.5
-    - _MirrorContrast: 1
-    - _MirrorFPOW: 5
-    - _MirrorOnBack: 0
-    - _MirrorR0: 0.01
-    - _MirrorSaturation: 1
-    - _MirrorStrength: 1
-    - _MirrorWaveFlow: 5
-    - _MirrorWavePow: 1
-    - _MirrorWaveScale: 1
     - _Mode: 0
-    - _NormalMap1Strength: 1
-    - _NormalMap2Flow: 0.5
-    - _NormalMap2Strength: 1
-    - _NormalMap2Tiling: 1.2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ParallaxAmount: 0.1
-    - _ParallaxFlow: 40
-    - _ParallaxNoiseAmplitude: 3
-    - _ParallaxNoiseFrequency: 1
-    - _ParallaxNoiseGain: 0.3
-    - _ParallaxNoiseLacunarity: 4
-    - _ParallaxNoiseScale: 1
-    - _ParallaxNormal2Offset: 1
-    - _Rotation: 0
     - _SmoothnessTextureChannel: 0
-    - _SoftFactor: 0.5
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _TextureUv1: 4
@@ -166,17 +102,10 @@ Material:
     - _VectorY3: -0.7
     - _ZWrite: 1
     m_Colors:
-    - _AlbedoColor: {r: 0.15, g: 0.161, b: 0.16, a: 1}
     - _Color: {r: 0.96862745, g: 0.92156863, b: 0.77254903, a: 0.70980394}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FoamSoft: {r: 0.25, g: 0.6, b: 1, a: 0}
     - _Level0Color: {r: 0.21176471, g: 0.24313726, b: 0.27058825, a: 1}
     - _Level1Color: {r: 0.38431373, g: 0.79607844, b: 1, a: 0}
-    - _MirrorColor: {r: 1, g: 1, b: 1, a: 0.5}
-    - _MirrorDepthColor: {r: 0, g: 0, b: 0, a: 0.5}
     - _TextureV1: {r: 0.9, g: 1, b: 0, a: 0}
     - _TextureV2: {r: 1.3, g: 1.2, b: 0, a: 0}
     - _TextureV3: {r: -1, g: -1, b: 0, a: 0}
-    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-  m_BuildTextureStacks: []

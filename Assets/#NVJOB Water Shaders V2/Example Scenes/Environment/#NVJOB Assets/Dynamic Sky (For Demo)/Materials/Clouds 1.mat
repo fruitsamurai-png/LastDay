@@ -2,21 +2,18 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 8
+  serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Clouds 1
   m_Shader: {fileID: 4800000, guid: d1b928c1678247d7ba7e5e810deac9b1, type: 3}
-  m_ValidKeywords:
-  - DSKY_HORIZON
-  m_InvalidKeywords:
-  - STC_GTYPE_BRANCH
+  m_ShaderKeywords: DSKY_CLOUD_2 STC_GTYPE_BRANCH
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2501
+  m_CustomRenderQueue: 2500
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -70,7 +67,6 @@ Material:
         m_Texture: {fileID: 2800000, guid: 6798ff73f27744ebab26db6109e56a5f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -113,4 +109,3 @@ Material:
     - _TextureV1: {r: 0.9, g: 1, b: 0, a: 0}
     - _TextureV2: {r: 1.3, g: 1.2, b: 0, a: 0}
     - _TextureV3: {r: -1, g: -1, b: 0, a: 0}
-  m_BuildTextureStacks: []
